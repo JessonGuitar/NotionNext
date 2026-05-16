@@ -7,16 +7,16 @@
 const Style = () => {
   return (
     <style jsx global>{`
-      // 底色
-      body {
+      // 底色（仅对proxio主题生效）
+      #theme-proxio body {
         background-color: #eeedee;
       }
-      .dark body {
+      #theme-proxio .dark body {
         background-color: black;
       }
 
-      // 菜单下划线动画
-      #theme-next .menu-link {
+      // 菜单下划线动画（适配proxio主题）
+      #theme-proxio .menu-link {
         text-decoration: none;
         background-image: linear-gradient(#4e80ee, #4e80ee);
         background-repeat: no-repeat;
@@ -24,7 +24,7 @@ const Style = () => {
         background-size: 0 2px;
         transition: background-size 100ms ease-in-out;
       }
-      #theme-next .menu-link:hover {
+      #theme-proxio .menu-link:hover {
         background-size: 100% 2px;
         color: #4e80ee;
       }
