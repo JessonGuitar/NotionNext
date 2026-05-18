@@ -54,6 +54,12 @@ module.exports = {
     url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E4%BC%B4%E4%BD%A0%E5%B7%A6%E5%8F%B3%20beside%20you.mp3',
     cover: ''
   }
+  {
+    name: '喝高的牛仔 Drunk Cowboy',
+    artist: '杨家胜 | Jesson Yang',
+    url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E5%96%9D%E9%AB%98%E7%9A%84%E7%89%9B%E4%BB%94%20Drunk%20Cowboy.mp3',
+    cover: ''
+  }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
