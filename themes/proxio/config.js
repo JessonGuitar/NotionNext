@@ -12,7 +12,7 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: '关于我', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
-    'https://yangjiasheng.com/article/guide', // 英雄区按钮
+    'https://nine-opossum-3f4.notion.site/75f0ffcf9e4882909b9301270afab951?pvs=74', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
@@ -268,7 +268,7 @@ const CONFIG = {
   PROXIO_CTA_TITLE_2: '如何联系我本人',
   PROXIO_CTA_DESCRIPTION: '教学咨询 / 演出合作 / 书籍洽谈 / 课程定制 | Teaching Inquiry / Performance Cooperation / Book Negotiation / Course Customization',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
-  PROXIO_CTA_BUTTON_URL: '/about',
+  PROXIO_CTA_BUTTON_URL: 'https://nine-opossum-3f4.notion.site/3730ffcf9e48802d9624ed597240bbfc?pvs=74',
   PROXIO_CTA_BUTTON_TEXT: '联系我',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
