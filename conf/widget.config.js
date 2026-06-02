@@ -27,10 +27,12 @@ module.exports = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
+  // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档：https://aplayer.js.org/#/zh-Hans/
+[
   {
     name: '航行 Voyage',
     artist: '杨家胜 | Jesson Yang',
-    url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E8%88%AA%E8%A1%8C%20Voyage.mp3',
+    url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E8%A1%8C%E8%88%AA%20Voyage.mp3',
     cover: ''
   },
   {
@@ -50,8 +52,14 @@ module.exports = {
     artist: '杨家胜 | Jesson Yang',
     url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E5%96%9D%E9%AB%98%E7%9A%84%E7%89%9B%E4%BB%94%20Drunk%20Cowboy.mp3',
     cover: ''
+  },
+  {
+    name: '夏末圆舞曲 Summer Waltz',
+    artist: '杨家胜 | Jesson Yang',
+    url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E5%A4%8F%E6%9C%AB%E5%9C%86%E8%88%9E%E6%9B%B2%20Summer%20Waltz.mp3',
+    cover: ''
   }
-  ],
+]
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
     process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
