@@ -26,10 +26,9 @@ module.exports = {
     'https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js',
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
-    // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
   // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档：https://aplayer.js.org/#/zh-Hans/
 [
-  {
+ {
     name: '航行 Voyage',
     artist: '杨家胜 | Jesson Yang',
     url: 'https://cdn.jsdelivr.net/gh/JessonGuitar/mp3-cdn@main/%E8%A1%8C%E8%88%AA%20Voyage.mp3',
